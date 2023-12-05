@@ -8,12 +8,13 @@
 
 <body>
     <header>
-        <h3>Siswa yang sudah mendaftar</h3>
+        <h3>Daftar Siswa Baru</h3>
     </header>
 
-    <nav>
-        <a href="form-daftar.php">[+] Tambah Baru</a>
-    </nav>
+    <nav class="d-flex justify-content-between mb-2">
+            <a href="ekspor.php" class="bg-warning text-dark">Ekspor PDF</a>
+            <a href="form-daftar.php">[+] Tambah Siswa</a>
+        </nav>
 
     <br>
 
